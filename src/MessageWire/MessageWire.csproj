@@ -1,23 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>
-    <Version>2.0.0</Version>
-    <Authors>Tyler Jensen</Authors>
-    <Company />
-    <Description>MessageWire is an enhanced Secure Remote Password Protocol wrapper for a NetMQ Dealer socket (client) Router socket (server) combination to enable secure messaging.</Description>
-    <Copyright>Tyler Jensen</Copyright>
-    <PackageProjectUrl>https://github.com/tylerjensen/MessageWire</PackageProjectUrl>
-    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
-    <PackageIconUrl>http://tsjensen.com/blog/image.axd?picture=MessageWireLogo.png</PackageIconUrl>
-    <PackageReleaseNotes>Updated to NetStandard 2.0 and .NET Framework 4.6.2 support. Drops support for .NET Framework 3.5.</PackageReleaseNotes>
-    <PackageTags>TCP;Messaging;Zero-Knowledge-Proof;Secure-Remote-Password-Protocol</PackageTags>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NetMQ" Version="4.0.0.1" />
-    <PackageReference Include="System.Net.Http" Version="4.3.4" />
+    <PackageReference Include="NetMQ" Version="4.0.0.207" />
   </ItemGroup>
 
 </Project>
